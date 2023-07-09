@@ -1,1 +1,22 @@
 @import url("components/container.css");
+@import url("components/typography.css");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui;
+  margin: 0;
+}
+
+input, textarea, button, select {
+  font: inherit;
+}
+
+:root {
+  --primary: #f2d544;
+  --black: #232020;
+  --text-color: white;
+  --gray: #999999;
+}

@@ -1,0 +1,22 @@
+.btn {
+    all: unset;
+    outline: revert;
+    box-sizing: border-box;
+    display: inline-block;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    font-weight: 600;
+    letter-spacing: 2px;
+    opacity: 0.8;
+    transition: opacity 300ms, translate 300ms;
+}
+
+.btn:hover{
+    opacity: 1;
+}
+
+.btn:active{
+    translate: 1px 1px;
+}
