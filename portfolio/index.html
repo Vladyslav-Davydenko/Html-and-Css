@@ -9,7 +9,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <nav>
@@ -43,8 +42,42 @@
     </nav>
 
     <main>
-        <!-- Keep this for Axe -->
-        <h1>Sam Green</h1>
+        <section id="intro" class="layout-section" aria-describedby="intro-h1 intro-h2">
+            <div class="container">
+                <h1 id="intro-h1" class="title--lg">Sam Green</h1>
+                <h2 id="intro-h2" class="title--lg">Web Developer</h2>
+                <p class="text--xl">Sam is a web developer based in Amsterdam.</p>
+                <p class="text--xl">Sam brings your idea to life with <strong>modern technology</strong>.</p>
+            </div>
+        </section>
+        <section id="about-me" class="layout-section" aria-labelledby="heading-aboutme">
+            <div class="container">
+                <h2 id="heading-aboutme" class="title--sm layout-section-title">About me</h2>
+                <div class="layout-grid-half">
+                <p class="text--lg">
+                    Sam Green studied computer science and
+                    multimedia at the University of Web Design.
+                    Years of experience have given Sam a unique
+                    angle to approach client projects.
+                </p>
+                <p class="text--lg">
+                    Sam works mostly with startups and advises them
+                    on the best technology that is suitable for
+                    their project.
+                </p>
+                <p class="text--lg">
+                    Sam helps you bring your vision to life with
+                    attention to detail and an unrivaled focus on
+                    quality.
+                </p>
+                <p class="text--lg">
+                    Curious to know more? Check-out my
+                    <a href="#portfolio">portfolio</a> or
+                    <a href="#hire-me">hire me</a>
+                </p>
+                </div>
+            </div>
+        </section>
     </main>
 </body>
 </html>

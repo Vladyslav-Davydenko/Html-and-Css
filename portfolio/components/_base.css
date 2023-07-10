@@ -24,6 +24,15 @@ html {
     color: var(--text-color);
 }
 
+html.light-theme {
+    background-color: var(--beige);
+    --text-color: var(--black);
+    --gray-light: var(--gray-dark);
+    --light-icon: var(--black);
+    --dark-icon: white;
+    --anchor-color: var(--black);
+}
+
 @media (prefers-reduced-motion: no-preference) {
     html {
         scroll-behavior: smooth;
@@ -44,18 +53,11 @@ input, textarea, button, select {
     color: var(--black);
 }
 
-.light-theme{
-    background-color: var(--beige);
-    --text-color: var(--black);
-    --light-icon: var(--black);
-    --gray-light: var(--gray-dark);
-    --dark-icon: white;
-    --anchor-color: var(--black);
-
-}
-
 @media (max-width: 37.5rem) {
     :root {
         --gap: 30px;
+    }
+    html{
+        font-size: 70%;
     }
 }
