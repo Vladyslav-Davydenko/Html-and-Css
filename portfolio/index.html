@@ -1,19 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="color-scheme" content="dark light">
-  <link rel="stylesheet" href="style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-  <title>Portfolio</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sam Green | Web Developer</title>
+    <meta name="color-scheme" content="dark light" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <nav></nav>
-  <main></main>
-  <footer></footer>
-  <script type="module" src="main.js"></script>
+    <nav>
+        <div class="container">
+            <div class="nav">
+                <img src="https://res.cloudinary.com/dbfn5lnvx/image/upload/v1648478885/learnhtmlcss/portfolio/logo.svg" alt="Sam Green logo" width="45" height="43" />
+                <ul class="nav-links">
+                    <li><a href="#about-me" class="btn btn--nav">About me</a></li>
+                    <li><a href="#portfolio" class="btn btn--nav">Portfolio</a></li>
+                    <li><a href="#experience" class="btn btn--nav">Experience</a></li>
+                    <li><a href="#testimonials" class="btn btn--nav">Testimonials</a></li>
+                    <li class="nav-hire-me"><a href="#hire-me" class="btn btn--raised">Hire me</a></li>
+                </ul>
+            </div>
+        </div>
+        <button id="toggle-theme" aria-label="Toggle dark theme">
+        	<svg
+                 xmlns="http://www.w3.org/2000/svg"
+                 enable-background="new 0 0 24 24"
+                 height="24px"
+                 viewBox="0 0 24 24"
+                 width="24px"
+                 fill="var(--light-icon)"
+                 >
+                <rect fill="none" height="24" width="24" />
+                <path
+                      d="M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36c-0.98,1.37-2.58,2.26-4.4,2.26 c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"
+                      />
+            </svg>
+        </button>
+    </nav>
+
+    <main>
+        <!-- Keep this for Axe -->
+        <h1>Sam Green</h1>
+    </main>
 </body>
 </html>
