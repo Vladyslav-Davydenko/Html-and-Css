@@ -11,5 +11,5 @@
     transition: translate 180ms;
 }
 #toggle-theme:active {
-    translate: 1px 1px;
+    translate: 1px, 1px;
 }

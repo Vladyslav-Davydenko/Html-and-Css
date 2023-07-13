@@ -40,11 +40,14 @@ html.light-theme {
 }
 
 body {
-    font-family: "Poppins", sans-serif;
     margin: 0;
+    font-family: "Poppins", sans-serif;
 }
 
-input, textarea, button, select {
+input,
+textarea,
+button,
+select {
     font: inherit;
 }
 
@@ -57,7 +60,7 @@ input, textarea, button, select {
     :root {
         --gap: 30px;
     }
-    html{
-        font-size: 70%;
+    html {
+        font-size: 70%; /* as long as the smallest font is still legible */
     }
 }

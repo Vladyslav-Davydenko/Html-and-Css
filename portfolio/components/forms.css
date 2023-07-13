@@ -1,54 +1,23 @@
-.btn {
-    all: unset;
-    outline: revert;
-    box-sizing: border-box;
-    display: inline-block;
-    cursor: pointer;
-    font-size: 0.88rem;
-    line-height: 1.5;
-    letter-spacing: 2px;
-    font-weight: 600;
-    text-transform: uppercase;
-    transition: translate 180ms, opacity 180ms;
-    opacity: 0.8;
-}
-
-*{
-    outline: 1px solid #333;
-}
-
-.btn:hover {
-    opacity: 1;
-}
-
-.btn:active {
-    translate: 1px 1px;
-}
-
-.btn--nav{
-    color: var(--text-color);
-    padding: 12px;
-}
-
-.btn--raised{
-    background-color: var(--primary);
-    padding: 12px 53px 12px 24px;
-    color: var(--black);
-    background-image: url("https://res.cloudinary.com/dbfn5lnvx/image/upload/v1648478882/learnhtmlcss/portfolio/arrow-right.svg");
-    background-repeat: no-repeat;
-    background-position: right 20px center;
-}
-
-.btn--line{
-    color: var(--text-color);
-    padding: 12px;
-}
-
-.btn--line::after{
-    box-sizing: border-box;
-    display: inline-block;
-    content: "";
-    height: 4px;
+.input {
     width: 100%;
-    border: 1px solid var(--primary);
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid var(--gray);
+    padding: 12px 10px;
+    font-weight: 300;
+    font-size: 1.4rem;
+    line-height: 1.9;
+    color: var(--text-color);
+    margin-bottom: 24px;
+    transition: border-color 200ms;
+}
+
+.input:focus {
+    border-bottom-color: var(--primary);
+    outline: none;
+}
+
+textarea.input {
+    resize: vertical;
+    min-height: 100px;
 }
