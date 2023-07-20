@@ -1,0 +1,21 @@
+@layer component {
+    .entry{
+        display: grid;
+        grid-template-columns: auto 1fr auto;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+    .entry-details p{
+        margin: 5px;
+    }
+
+    .entry-details .entry-description{
+        font-size: 0.87rem;
+        color: var(--light-text-color);
+    }
+    .entry-price{
+        font-weight: bold;
+        color: var(--dark-color);
+    }
+}
