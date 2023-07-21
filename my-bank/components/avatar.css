@@ -1,5 +1,3 @@
-@layer component {
-    .avatar {
-        border-radius: 50%;
-    }
+.avatar {
+    border-radius: 50%;
 }
